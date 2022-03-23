@@ -1,4 +1,4 @@
-# Homework #1: Sinusoid, Sampling, DFT and STFT (Due Mar 28)
+# Homework #1: Sinusoid, Sampling, DFT and STFT (Due Mar 30)
 
 ### Instruction
 The problem sets include short answers and Python programming. Organize your answers, figures and supporting comments using a word editor convenient for you (e.g., MS Word, Latex). You should use the Jupyter notebook for Python programming. You can set up the Jupyter notebook environment following the instruction at [this link](https://github.com/juhannam/gct535-2022/tree/main/practice). 
