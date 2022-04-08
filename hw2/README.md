@@ -7,7 +7,7 @@ The problem sets include short answers and Python programming. Organize your ans
 ### Deliverable 
 You should submit two items: the report and .ipynb file. Please compress them as a single file (e.g. zip) and submit it via KLMS.
 
-## Problem #1: Convolution (20 pts.)
+## Problem #1: Convolution (30 pts.)
 
 1. You have an input signal x(n) = [1, 2, 3, 2] and feed it into an LTI system with the impulse response, h(n) = [3, -1, -2]. What is the output (i.e. convolution between x(n) and h(n))? (10pts.)
 
@@ -27,7 +27,7 @@ def my_conv(x,h):
 
 3. Run “my_conv.m” with the following simple filters using the provided snare drum file, “Snare.wav” as an input. 
 
-    - h1 = [1, 1, 1, 1, 1]/5
+    - h1 = [0.2, 0.2, 0.2, 0.2, 0.2]
     - h2 = [1, -2, 1]
 
 Submit the outputs as wav files with 16 bit and 44.1kHz sampling rate format (10pts.). 
@@ -59,10 +59,12 @@ We design a wind sound using a white noise and a resonant low-pass filter.
 
 1. Generate 2-sec white noise using the “np.rand” function. 
 2. Take a segment of the white noise with a large window size (e.g. 4096 samples) and plot the FFT magnitude.
-3. Implement a resonant filter using “signal.lfilter” (you can use the implementation from our practice code) and find an apropriate cut-off frequency and Q value to design a wind sound (set the sampling rate to 44.1kHz). Submit the output as a wav file with 16 bit and 44.1kHz sampling rate format. 
+3. Implement a resonant filter using “signal.lfilter” (you can use the implementation from our practice code) and find an apropriate cut-off frequency and Q value to design a wind sound. Submit the output as a wav file with 16 bit and 44.1kHz sampling rate format. 
 4. Plot the amplitude response of the resonant low-pass filter using the "freqz" function.
 5. Take a segment of the wind sound with a large window size (e.g. 4096 samples) and plot the FFT magnitude.
 
 ## Problem #5: Design a question for midterm exam (bonus up to 20pts.)
 This question is optional. But, if you design a good question for midterm exam, you will earn some bunus point. If it is adopted in midterm exame, you will get 20 extract points! 
+
+
 
