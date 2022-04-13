@@ -64,7 +64,7 @@ We design a wind sound using a white noise and a resonant low-pass filter.
 5. Take a segment of the wind sound with a large window size (e.g. 4096 samples) and plot the FFT magnitude.
 
 ## Problem #5: Design a question for midterm exam (bonus up to 20pts.)
-This question is optional. But, if you design a good question for midterm exam, you will earn some bunus point. If it is adopted in midterm exame, you will get 20 extract points! 
+This question is optional. But, if you design a good question for midterm exam, you will earn some bunus point. If it is adopted in the midterm exam, you will get 20 extra points! 
 
 
 
