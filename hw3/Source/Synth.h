@@ -414,6 +414,29 @@ public:
         // Problem #3 END ////////////////////////////////////////////////////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Problem #4 (Bonus) ////////////////////////////////////////////////////////////////////////////////////////
+        // Design your own sound. Adjust values for the preset of your sound. ////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        else if (name == "Your Sound")
+        {
+            presetCarrierAmplitude      = 1.0f;
+            presetCarrierAttackTime     = 0.0f;
+            presetCarrierDecayTime      = 0.01f;
+            presetCarrierSustainLevel   = 1.0f;
+            presetCarrierReleaseTime    = 0.01f;
+            
+            presetModulatorAmplitude    = 0.0f;
+            presetModulatorFreqRatio    = 1.0f;
+            presetModulatorAttackTime   = 0.0f;
+            presetModulatorDecayTime    = 0.01f;
+            presetModulatorSustainLevel = 1.0f;
+            presetModulatorReleaseTime  = 0.01f;
+        }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Problem #4 END ////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
         else // default preset.
         {
             presetCarrierAmplitude      = 1.0f;
@@ -609,6 +632,7 @@ public:
         presetNames.add("Bell");
         presetNames.add("Brass");
         presetNames.add("Electric Piano");
+        presetNames.add("Your Sound");
         presetList.addItemList( presetNames, 1 );
         presetList.setSelectedItemIndex(0);
         presetList.onChange = [this] { loadPreset (presetList.getItemText(presetList.getSelectedItemIndex())); };
