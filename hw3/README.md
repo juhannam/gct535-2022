@@ -4,7 +4,8 @@
 The problem includes C++ programming on JUCE framework. Follow the instruction, modify the given template code, implement the components using an editor convenient for you (e.g. VIM, VSCode).  
 
 ### Deliverable 
-You should submit two source code files Main.cpp and Synth.h, compressed in a single zip file and submit it via KLMS.
+You should submit one jucer file and two source code files Main.cpp and Synth.h, compressed in a single zip file.
+Please submit it via KLMS.
 
 
 ## Problem \#1: Attack, Decay, Sustain and Release (35 pts.)
