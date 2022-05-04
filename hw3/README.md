@@ -55,5 +55,5 @@ Build your source code, play with knobs, and listen to the sound to find proper 
 Design your own sound.
 Adjust the input parameter values in source code to make the preset for your sound.
 You can try to reproduce the sounds of existing instrumentsm, or you can design the sounds to express something.
-
+Please explain your sound by leaving comment in Problem #4 block in your source code.
 
