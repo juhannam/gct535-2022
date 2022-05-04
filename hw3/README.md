@@ -41,11 +41,7 @@ float getCurrentSample( float carrierAmplitude, float carrierAttackTime,
 
 Implement the FM synthesizer consist of two oscillators, one carrier and one modulator, with ADSR curves for each, as following equation.
 
-$$ Sample = A_{c} * ADSR_{c} * \sin{}\big{(} 2\pi{}f_{c} * t+ A_{m} * ADSR_{m} * \sin( 2\pi{}f_{c} * FreqRatio * t ) \big{)} $$
-
-$$ A_{c}\text{: carrier amplitude}\qquad ADSR_{c}\text{: carrier ADSR level} \qquad  f_{c}\text{: carrier frequency} $$
-$$ A_{m}\text{: modulator amplitude} \qquad  ADSR_{m}\text{: modulator ADSR level} $$
-$$ FreqRatio\text{: } \frac{frequency_{modulator}}{frequency_{carrier}} \qquad t \text{: current time} $$
+<img width="987" alt="GCT535_Homework3_FMEquation" src="https://user-images.githubusercontent.com/16303932/166635793-dd79826a-71e9-4759-90fd-eed9b3415f22.png">
 
 ## Problem \#3: Bell, Brass and Electric Piano (30 pts.)
 
