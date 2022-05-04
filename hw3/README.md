@@ -1,4 +1,4 @@
-# Homework #3: ADSR and FM Synthesizer (Due May 13)
+# Homework #3: ADSR and FM Synthesizer (Due May 15)
 
 ### Instruction
 The problem includes C++ programming on JUCE framework. Follow the instruction, modify the given template code, implement the components using an editor convenient for you (e.g. VIM, VSCode).  
