@@ -41,6 +41,7 @@ Replace getADSRCurve, getCurrentSample, loadPreset functions with your Homework 
 
 ## Problem \#1: Delay  (30 pts.)
 <img width="448" alt="Fig1_Delay" src="https://user-images.githubusercontent.com/16303932/170556449-48eeddec-3742-4b27-975e-747ddd101454.png">
+
 ```
 void process (const ProcessContext& context) noexcept
 {    
@@ -53,10 +54,12 @@ void process (const ProcessContext& context) noexcept
             }    
         }    
 ```
+
 Implement the delay effect by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
 
 ## Problem \#2: Chorus (30 pts.)
 <img width="448" alt="Fig2_Chorus" src="https://user-images.githubusercontent.com/16303932/170556458-d21f90ef-d011-4206-b8f5-4c1fd77149c8.png">
+
 ```
 void process (const ProcessContext& context) noexcept
 {    
@@ -69,10 +72,12 @@ void process (const ProcessContext& context) noexcept
             }    
         }    
 ```
+
 Implement the chorus effect by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
 
 ## Problem \#3: Flanger (30 pts.)
 <img width="448" alt="Fig3_Flanger" src="https://user-images.githubusercontent.com/16303932/170556465-5c560768-e02e-4c26-a94f-929975addc51.png">
+
 ```
 void process (const ProcessContext& context) noexcept
 {    
@@ -85,6 +90,7 @@ void process (const ProcessContext& context) noexcept
             }    
         }    
 ```
+
 Implement the chorus effect by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
 
 
