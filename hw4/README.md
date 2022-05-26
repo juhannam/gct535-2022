@@ -91,6 +91,6 @@ void process (const ProcessContext& context) noexcept
         }    
 ```
 
-Implement the chorus effect by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
+Implement the flanger effect by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
 
 
