@@ -36,7 +36,7 @@ void loadPreset(juce::String name)
         ...
     }
 ```
-Replace getADSRCurve, getCurrentSample, loadPreset functions with your Homework #3 solution.
+Replace *getADSRCurve*, *getCurrentSample*, and *loadPreset* functions with your Homework #3 solution.
 
 
 ## Problem \#1: Delay  (30 pts.)
