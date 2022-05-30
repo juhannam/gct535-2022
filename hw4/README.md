@@ -55,7 +55,8 @@ void process (const ProcessContext& context) noexcept
         }    
 ```
 
-Implement the delay effect by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
+Implement the delay effect as the above figure by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
+You should use the Feedback Gain, Delay Time and Wet/Dry Ratio as the control parameter for the delay effect.
 
 ## Problem \#2: Chorus (30 pts.)
 <img width="448" alt="Fig2_Chorus" src="https://user-images.githubusercontent.com/16303932/170556458-d21f90ef-d011-4206-b8f5-4c1fd77149c8.png">
@@ -73,7 +74,8 @@ void process (const ProcessContext& context) noexcept
         }    
 ```
 
-Implement the chorus effect by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
+Implement the chorus effect as the above figure by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
+You should use the Delay Time, Wet/Dry Ratio, LFR Rate, and LFO Depth as the control parameter for the chorus effect.
 
 ## Problem \#3: Flanger (30 pts.)
 <img width="448" alt="Fig3_Flanger" src="https://user-images.githubusercontent.com/16303932/170556465-5c560768-e02e-4c26-a94f-929975addc51.png">
@@ -91,6 +93,6 @@ void process (const ProcessContext& context) noexcept
         }    
 ```
 
-Implement the flanger effect by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
-
+Implement the flanger effect as the above figure by modifying the given code. Please refer our practice code '09. Delay-based Audio Effects.ipynb'.
+You should use the Delay Time, Wet/Dry Ratio, LFR Rate, and LFO Depth as the control parameter for the flanger effect.
 
